@@ -101,7 +101,7 @@ class SensorDescription():
                 self.MAXIMUM_ANGLE: sensor.max_angle,
                 self.MINIMUM_RANGE: 0.05,
                 self.MAXIMUM_RANGE: 25.0,
-                self.UPDATE_RATE: 50
+                self.UPDATE_RATE: 10 # 50
             })
 
     class Lidar3dDescription(BaseDescription):
